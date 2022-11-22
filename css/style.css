@@ -103,6 +103,16 @@ li {
   z-index: 2;
   box-shadow: 10px 12px 50px 10px rgba(7, 7, 7, 0.842);
 }
+.mechado-title {
+  bottom: 0px;
+  width: 80px;
+  height: 616px;
+  font-size: 75px;
+  left: 33rem;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+}
 
 .mechado--holder {
   position: relative;
