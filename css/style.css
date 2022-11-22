@@ -12,6 +12,9 @@ h3 {
   display: inline-block;
   font-size: 64px;
 }
+.logo {
+  cursor: pointer;
+}
 ul,
 li {
   color: #fff;
@@ -26,6 +29,7 @@ li {
   position: relative;
   top: 4.1rem;
   padding-left: 3rem;
+  cursor: pointer;
 }
 
 .page_holder {
@@ -44,7 +48,7 @@ li {
 .main-title {
   position: relative;
   color: #d9d9d9;
-  font-family: "Aurora", sans-serif;
+  font-family: "aurorapro", sans-serif;
   font-size: 128px;
   width: 768px;
   height: 462px;
@@ -166,6 +170,7 @@ p {
 }
 .top_causine__title {
   color: #c51616;
+  cursor: pointer;
 }
 .food_details {
   position: relative;
@@ -178,10 +183,11 @@ p {
   opacity: 50%;
 }
 .sub_title {
-  font-family: "Aurora", serif;
+  font-family: "aurorapro", serif;
   font-size: 128px;
   font-weight: 400;
   color: #c71616;
+  margin-top: 10rem;
 }
 .fullmoon {
   display: block;
@@ -342,4 +348,11 @@ p {
   position: sticky;
   bottom: 0;
   z-index: 2;
+}
+@font-face {
+  font-family: "aurorapro";
+  src: url("aurora-pro-webfont.woff2") format("woff2"),
+    url("aurora-pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
