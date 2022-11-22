@@ -41,7 +41,7 @@ li {
 }
 .main_container {
   padding: 30px 120px;
-  height: 5500px;
+  height: 5700px;
   /* overflow: hidden; */
 }
 
@@ -55,12 +55,12 @@ li {
   font-weight: 400;
   line-height: 153px;
 }
-.window {
+.window-img {
   position: relative;
   float: right;
   top: -30rem;
 }
-.fchicken {
+.fchicken-img {
   position: relative;
   float: right;
   right: -25rem;
@@ -107,7 +107,7 @@ li {
   position: relative;
   width: 302px;
 }
-.mechado {
+.mechado-img {
   width: 100%;
   height: 622px;
   object-fit: cover;
@@ -115,20 +115,20 @@ li {
   border-radius: 20px;
   opacity: 70%;
 }
-.blood {
+.blood-img {
   position: relative;
   top: -4rem;
   left: 11rem;
   z-index: 1;
 }
-.web {
+.web-img {
   position: relative;
   transform: scaleX(-1);
   top: -48rem;
   left: 11.3rem;
   z-index: 2;
 }
-.dinuguan {
+.dinuguan-img {
   position: relative;
   top: -60rem;
   right: -50rem;
@@ -144,7 +144,7 @@ li {
 /* .span2 {
   color: #d9d9d9;
 } */
-.reflection {
+.reflection-img {
   position: absolute;
   width: 1440px;
   height: 1080px;
@@ -152,13 +152,24 @@ li {
   top: 122rem;
   box-shadow: 0 0 100px 0px rgba(248, 248, 248, 0.842);
 }
+.top-menu {
+  position: relative;
+  top: 20rem;
+  text-align: center;
+  z-index: 2;
+}
+.top-menu h3 {
+  color: #8b0f0f;
+  font-size: 100px;
+  text-shadow: 10px 10px 10px #0c1317;
+}
 .top_causine_container {
   position: relative;
   display: grid;
   gap: 6.4rem;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  top: 30rem;
+  top: 24.9rem;
 }
 .top_causine__images {
   opacity: 70%;
@@ -169,7 +180,9 @@ p {
   margin-top: -2rem;
 }
 .top_causine__title {
-  color: #c51616;
+  /* color: #c51616; */
+  color: #8b0f0f;
+
   cursor: pointer;
 }
 .food_details {
@@ -186,7 +199,8 @@ p {
   font-family: "aurorapro", serif;
   font-size: 128px;
   font-weight: 400;
-  color: #c71616;
+  color: #8b0f0f;
+
   margin-top: 10rem;
 }
 .fullmoon {
