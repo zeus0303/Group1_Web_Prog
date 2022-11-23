@@ -46,6 +46,9 @@ li {
   width: 1440px;
   /* overflow: hidden; */
 }
+.sign-in--button {
+  color: #8b0f0f;
+}
 .main_container {
   padding: 30px 120px;
   /* height: 5700px; */
