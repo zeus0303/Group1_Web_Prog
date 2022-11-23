@@ -388,8 +388,11 @@ p {
 .note {
   width: 794px;
   height: 62px;
-  padding-top: 5rem;
+  padding-top: 8rem;
   margin: auto;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
 }
 .test {
   width: 1440px;
